@@ -2,13 +2,18 @@
 
 No frills TypeScript trying out all the features:
 
-- Variable Type Annotations
 - Parameter Type Annotations
 - Return Type Annotations
 - Object Types
-- Optional Properties
 - Union Types
-- Type Aliases for Object Types and Union Types
+- Type Aliases
+- Optional Properties
+- Literal Type
+- Function Type Expressions
+- Rest Parameters
+- Parameter Destructuring
+- Generics - Type Variable
+- Generics - Array of Type Variables
 
 ```bash
 shogo@dev:~/typescript-exercise$ npm run build
