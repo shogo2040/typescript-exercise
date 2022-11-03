@@ -5,7 +5,8 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc --target ES2021 ./index.ts; node index.js",
+    "dev": "onchange '*.ts' -- npm run build",
+    "build": "echo 'transpiling...'; tsc --target ES2021 ./index.ts; clear; node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/shogo2040/typescript-exercise#readme",
   "devDependencies": {
+    "onchange": "^7.1.0",
     "prettier": "2.7.1",
     "typescript": "^4.8.4"
   }
