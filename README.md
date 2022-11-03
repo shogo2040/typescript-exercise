@@ -16,5 +16,5 @@ No frills TypeScript trying out all the features:
 - Generics - Array of Type Variables
 
 ```bash
-shogo@dev:~/typescript-exercise$ npm run build
+shogo@dev:~/typescript-exercise$ npm run dev --silent
 ```
